@@ -24,7 +24,7 @@ jobs:
         run: npm run lint
 
   docker:
-    needs: lint
+    needs: linter
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
