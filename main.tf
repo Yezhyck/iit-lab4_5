@@ -48,3 +48,4 @@ resource "aws_instance" "lab6-team3-instance" {
     Name = "lab6-team3-instance"
   }
 }
+
